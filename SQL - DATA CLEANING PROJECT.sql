@@ -2,7 +2,7 @@
 
 -- checking data
 SELECT * FROM layoffs
-
+ 
 -- 1. remove duplicates
 -- 2. standerdize the data
 -- 3. null values or blanck values 
@@ -14,6 +14,7 @@ SELECT * FROM layoffs
 /* mysql
 CREATE TABLE layoffs_staging
 LIKE layoffs */
+
 
 SELECT * 
 INTO layoffs_staging
